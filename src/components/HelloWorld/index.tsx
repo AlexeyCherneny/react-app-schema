@@ -1,8 +1,13 @@
 import * as React from 'react';
 
 class HelloWorld extends React.Component {
+  handleButton() {
+    debugger
+    alert('Hello world!')
+  }
+
   render() {
-    return <div>Hello world!</div>
+    return <button onClick={this.handleButton}>Click me</button>
   }
 }
 

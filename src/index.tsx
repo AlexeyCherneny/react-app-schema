@@ -1,8 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-//@ts-ignore
-import HelloWorld from './components/HelloWorld/index.tsx';
+import HelloWorld from './components/HelloWorld/index';
 
 const app = document.getElementById("app");
 

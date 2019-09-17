@@ -2,8 +2,7 @@ import * as React from 'react';
 
 class HelloWorld extends React.Component {
   handleButton() {
-    debugger
-    alert('Hello world!')
+    alert('Hello big world!')
   }
 
   render() {

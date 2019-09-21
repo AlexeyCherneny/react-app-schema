@@ -1,6 +1,15 @@
 {
   "compilerOptions": {
+      "baseUrl": ".",
       "sourceMap": true,
-      "jsx": "react"
+      "jsx": "react",
+      "checkJs": false,
+      "experimentalDecorators": true,
+      "target": "es5",
+      "paths": {
+        "components": [
+          "src/components/index.tsx"
+        ]
+      }
   }
 }

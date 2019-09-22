@@ -6,9 +6,17 @@
       "checkJs": false,
       "experimentalDecorators": true,
       "target": "es5",
+      "noUnusedLocals": true,
+      "noImplicitAny": true,
       "paths": {
         "components": [
           "src/components/index.tsx"
+        ],
+        "interfaces": [
+          "src/interfaces/index.tsx"
+        ],
+        "ui": [
+          "src/components/ui/index.tsx"
         ]
       }
   }

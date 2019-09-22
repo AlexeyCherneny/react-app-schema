@@ -1,7 +1,5 @@
-import Todos from './Todos/index';
-import Todo from './Todo/index';
+import Todos from './Todos';
 
 export {
   Todos,
-  Todo
 }

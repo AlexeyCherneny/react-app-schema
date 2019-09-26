@@ -4,7 +4,7 @@ export interface IStore {
 
 export interface ITodosStore {
   todos: Array<ITodo>;
-  addTodo: (todo?: ITodo) => void
+  addTodo: (todo?: ITodo) => void;
 }
 
 export interface ITodo {

@@ -2,7 +2,10 @@ import { action, observable } from 'mobx';
 
 import { ITodo, ITodosStore } from 'interfaces';
 
-const createId = () => `_${Math.random().toString(36).substr(2, 9)}`;
+const createId = () =>
+  `_${Math.random()
+    .toString(36)
+    .substr(2, 9)}`;
 
 class Todos implements ITodosStore {
   @observable todos: Array<ITodo> = [];
@@ -12,7 +15,7 @@ class Todos implements ITodosStore {
     title: title ? title : '',
     description: description ? description : '',
     isDone: isDone ? isDone : false,
-  })
+  });
 
   @action addTodo = (todo?: ITodo) => {
     if (!todo) {
@@ -20,7 +23,7 @@ class Todos implements ITodosStore {
     } else {
       this.todos.push(todo);
     }
-  }
+  };
 }
 
 export default Todos;

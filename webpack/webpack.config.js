@@ -21,7 +21,10 @@ module.exports = {
       {
         test: /\.ts(x?)$/,
         exclude: /node_modules/,
-        use: [{ loader: "ts-loader" }]
+        use: [
+          { loader: "ts-loader" },
+          { loader: "react-docgen-typescript-loader" }
+        ]
       },
       {
         enforce: "pre",

@@ -11,7 +11,7 @@ const Button = (props: IButtonProps) => {
     <button {...rest} className={styles.button}>
       {children}
     </button>
-  )
-}
+  );
+};
 
 export default Button;

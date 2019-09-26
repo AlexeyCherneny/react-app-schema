@@ -1,11 +1,3 @@
-import {
-  ITodo,
-  ITodosStore,
-  IStore
-} from '../store/interfaces';
+import { ITodo, ITodosStore, IStore } from '../store/interfaces';
 
-export {
-  ITodo,
-  ITodosStore,
-  IStore
-}
+export { ITodo, ITodosStore, IStore };
